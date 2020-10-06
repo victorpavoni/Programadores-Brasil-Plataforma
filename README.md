@@ -1,8 +1,8 @@
 # Programadores Brasil Plataforma
 Uma aplicação desenvolvida em NodeJS, EJS, BootStrap V4.3 e JavaScript. Uma plataforma de perguntas e respostas totalmente anônimo.
 
-<div style="width:70%">![Desktop](https://github.com/victorpavoni/Programadores-Brasil-Plataforma/blob/main/images/progbrasil-desktop.gif)</div>
-<div style="width:30%">![Mobile](https://github.com/victorpavoni/Programadores-Brasil-Plataforma/blob/main/images/progbrasil-mobile.gif)</div>
+<img alt="Desktop" src="https://github.com/victorpavoni/Programadores-Brasil-Plataforma/blob/main/images/progbrasil-desktop.gif" style="width:70%">
+<img alt="Mobile" src="https://github.com/victorpavoni/Programadores-Brasil-Plataforma/blob/main/images/progbrasil-mobile.gif" style="width:30%">
 
 # Instalação
 
