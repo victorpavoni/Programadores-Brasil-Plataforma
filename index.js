@@ -1,10 +1,20 @@
-const express = require('express')
+const express = require('express');
 const app = express()
 const bodyParser = require('body-parser')
 const connection = require('./database/database')
 const Pergunta = require('./database/Pergunta')
 const Resposta = require('./database/Resposta')
 
+const cool = require('cool-ascii-faces');
+const path = require('path');
+const PORT = process.env.PORT || 5000;
+
+express()
+    .use(express.static(path.join(__dirname, 'assets')))
+    .set('views', path.join(__dirname, 'assets'))
+    .set('view engine', 'ejs')
+    .get('/cool', (req, res) => res.send(cool()))
+    .listen(PORT);
 
 // Conectando com a DataBase
 connection
@@ -17,10 +27,10 @@ connection
     })
 
 // Setando EJS
-app.set('view engine', 'ejs')
+
 
 // Configuracao para usar arquivos estaticos (Estilos css, Javascript frontend, etc...)
-app.use(express.static('assets'))
+
 
 // Configurando o body parser para pegar as informacoes do formulario
 app.use(bodyParser.urlencoded({ extended: false }))
