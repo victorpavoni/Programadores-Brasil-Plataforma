@@ -22,6 +22,7 @@ $ CREATE DATABASE perguntasrespostas;
 
 # Rode a aplicação
 $ npm start
+# Abra seu navegador na seguinte URL: [http://](http://localhost:3000)
 ```
 
 # Licença
