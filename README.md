@@ -23,7 +23,7 @@ $ npm start
 ```
 
 # Licença
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/victorpavoni/Programadores-Brasil-Plataforma) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/victorpavoni/Programadores-Brasil-Plataforma/blob/main/LICENSE) para mais detalhes.
 
 ---
 
